@@ -38,7 +38,7 @@ jobs:
         asset_path: bin/csmwrapx64.efi
         asset_name: csmwrapx64.efi
         asset_content_type: application/octet-stream
-    - name: Upload release
+    - name: Upload release e
       uses: actions/upload-release-asset@v1
       if: ${{ github.event_name == 'release' }}
       env:
